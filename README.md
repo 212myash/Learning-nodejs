@@ -37,9 +37,6 @@ Concepts covered:
   - Sum of two numbers
   - Even or odd number
 
-Folder:
-
-
 Example concepts implemented:
 - Declaring variables
 - Writing functions
@@ -60,9 +57,6 @@ These modules come built-in with Node.js.
 Examples used:
 - os module
 - fs module
-
-Folder:
-
 
 Example:
 - Getting system information using os module
@@ -88,9 +82,6 @@ These modules are installed using npm.
 Example:
 - cat-me package
 
-Folder:
-
-
 Concept learned:
 - Installing packages using npm
 - Using external libraries
@@ -107,8 +98,6 @@ Concepts covered:
 - Checking file existence
 - Reading files using callbacks
 - Working with text files
-
-Folder:
 
 
 Examples implemented:
@@ -127,8 +116,6 @@ Concepts covered:
 - Listening to events
 - Emitting events
 
-Folder:
-
 
 Example:
 - Creating custom events and triggering them
@@ -140,9 +127,6 @@ Example:
 Concepts covered:
 - Reading JSON files
 - Writing JSON data
-
-Folder:
-
 
 Examples:
 - Parsing JSON
