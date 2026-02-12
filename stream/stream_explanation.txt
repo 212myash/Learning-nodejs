@@ -1,0 +1,21 @@
+What is Streams in Node.js?
+
+Streams allow us to process data in chunks instead of loading the entire file into memory.
+
+Types of Streams:
+
+1. Readable Stream
+Used to read data.
+Example: fs.createReadStream()
+
+2. Writable Stream
+Used to write data.
+Example: fs.createWriteStream()
+
+3. Duplex Stream
+Readable + Writable both.
+Example: net.Socket()
+
+4. Transform Stream
+Modify data while streaming.
+Example: zlib.createGzip()

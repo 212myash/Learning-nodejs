@@ -1,0 +1,3 @@
+This is a sample big file.
+Learning Node.js Streams.
+Streams read data in chunks instead of loading everything in memory.
