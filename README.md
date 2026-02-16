@@ -164,20 +164,19 @@ Examples:
 ---
 
 # Project Structure
-'''
+
 Learning-nodejs/
 │
 ├── basics/
 ├── modules/
 ├── fs-module/
-├── package.json/
 ├── event-emitter/
 ├── npm-packages/
 ├── promises/
 ├── JSON-Demo/
 ├── package.json
 └── README.md
-'''
+
 ---
 
 # How to Run This Project
