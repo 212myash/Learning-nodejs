@@ -134,6 +134,14 @@ Examples:
 
 ---
 
+### Streams and Compression
+
+Concepts covered:
+- Readable streams
+- Writing streams
+- File compression using zlib
+- File decompression
+
 # Project Structure
 
 Learning-nodejs/
@@ -141,6 +149,7 @@ Learning-nodejs/
 ├── basics/
 ├── modules/
 ├── fs-module/
+├── package.json/
 ├── event-emitter/
 ├── npm-packages/
 ├── JSON-Demo/
