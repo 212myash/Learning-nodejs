@@ -142,6 +142,7 @@ Concepts covered:
 - File compression using zlib
 - File decompression
 
+---
 
 ## 6. Promises and Async/Await
 
