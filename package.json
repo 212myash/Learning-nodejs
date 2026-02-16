@@ -1,0 +1,21 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "This repository contains my practice and learning code of **Node.js**.  \r I created this repository to learn backend development step by step with practical examples.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/212myash/Learning-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/212myash/Learning-nodejs/issues"
+  },
+  "homepage": "https://github.com/212myash/Learning-nodejs#readme"
+}
