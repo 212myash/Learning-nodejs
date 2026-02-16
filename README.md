@@ -164,7 +164,7 @@ Examples:
 ---
 
 # Project Structure
-
+```
 Learning-nodejs/
 │
 ├── basics/
@@ -176,7 +176,7 @@ Learning-nodejs/
 ├── JSON-Demo/
 ├── package.json
 └── README.md
-
+```
 ---
 
 # How to Run This Project
