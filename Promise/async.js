@@ -1,6 +1,8 @@
 function fatchData() {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
+            console.log("Data fetched successfully!");
+            console.log("Processing data...");
             const data = { id: 1, name: "Yash Raj" };
             resolve(data);
         }, 2000);
