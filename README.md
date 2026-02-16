@@ -142,6 +142,26 @@ Concepts covered:
 - File compression using zlib
 - File decompression
 
+
+## 6. Promises and Async/Await
+
+Promises and Async/Await are used to handle asynchronous operations in JavaScript and Node.js.
+
+Concepts covered:
+- Creating a Promise
+- resolve() and reject()
+- then(), catch(), finally()
+- async and await
+- try...catch...finally
+
+Examples:
+- Creating and resolving a Promise
+- Handling errors using catch()
+- Fetching data using async/await
+- Waiting for asynchronous operations
+
+---
+
 # Project Structure
 
 Learning-nodejs/
@@ -152,6 +172,7 @@ Learning-nodejs/
 ├── package.json/
 ├── event-emitter/
 ├── npm-packages/
+├── promises/
 ├── JSON-Demo/
 ├── package.json
 └── README.md
