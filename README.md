@@ -134,34 +134,43 @@ Examples:
 
 ---
 
-### Streams and Compression
-
-Concepts covered:
-- Readable streams
-- Writing streams
-- File compression using zlib
-- File decompression
 
 ---
 
-## 6. Promises and Async/Await
+## 6️⃣ Streams & Compression
 
-Promises and Async/Await are used to handle asynchronous operations in JavaScript and Node.js.
+Streams allow processing large data in chunks instead of loading everything into memory.
 
-Concepts covered:
-- Creating a Promise
-- resolve() and reject()
-- then(), catch(), finally()
-- async and await
-- try...catch...finally
+Types of streams covered:
+- Readable Streams
+- Writable Streams
+- Duplex Streams
+- Transform Streams
 
-Examples:
-- Creating and resolving a Promise
-- Handling errors using catch()
-- Fetching data using async/await
-- Waiting for asynchronous operations
+Also implemented:
+- File compression using `zlib`
+- File decompression using `zlib`
+
 
 ---
+
+## 7️⃣ Basic HTTP Server & Routing
+
+Created a basic HTTP server using Node.js built-in `http` module.
+
+Concepts implemented:
+- `http.createServer()`
+- Handling `req` (request) and `res` (response)
+- Routing using `req.url`
+- Checking HTTP methods using `req.method`
+- Sending HTML responses
+- Handling 404 errors
+
+Example Routes:
+- `/` → Landing Page
+- `/about` → About Page
+- `/contact` → Contact Page
+
 
 # Project Structure
 ```
@@ -172,8 +181,9 @@ Learning-nodejs/
 ├── fs-module/
 ├── event-emitter/
 ├── npm-packages/
-├── promises/
 ├── JSON-Demo/
+├── stream/
+├── server/
 ├── package.json
 └── README.md
 ```
@@ -197,7 +207,7 @@ Example:
 
 ---
 
-# Tools Used
+# 🛠 Tools Used
 
 - Node.js
 - Visual Studio Code
@@ -206,39 +216,44 @@ Example:
 
 ---
 
-# What I Learned From This Project
+# 🎯 What I Learned
 
-From this project I learned:
-- Basics of JavaScript required for backend
-- How Node.js works
-- How modules work in Node.js
-- How to read and write files
-- How events work in Node.js
-- How to use npm packages
+Through this project, I learned:
+
+- Core JavaScript concepts required for backend development
+- How Node.js works internally
+- Understanding modules in Node.js
+- File handling using the fs module
+- Event-driven programming
+- Working with streams and compression
+- Creating a basic HTTP server
+- Implementing routing logic
 
 ---
 
-# Future Learning Goals
+# 🚀 Future Learning Goals
 
-Next topics I plan to learn:
+Next steps in my backend development journey:
+
 - Express.js
 - REST API development
 - JWT Authentication
-- Database connection (MySQL / MongoDB)
-- Full backend project
+- Database integration (MySQL / MongoDB)
+- Building a complete backend project
 
 ---
 
-# Author
+# 👨‍💻 Author
 
-Yash Raj
+**Yash Raj**
 
 ---
 
-# Purpose of This Repository
+# 🎓 Purpose of This Repository
 
-This repository is created for:
-- Learning Node.js
-- Practicing backend development
-- Improving coding skills
-- Building GitHub portfolio
+This repository is created to:
+
+- Learn Node.js step by step
+- Practice backend development
+- Improve problem-solving skills
+- Build a strong GitHub portfolio
