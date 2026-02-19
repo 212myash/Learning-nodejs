@@ -137,7 +137,7 @@ Examples:
 
 ---
 
-## 6️⃣ Streams & Compression
+## 6️. Streams & Compression
 
 Streams allow processing large data in chunks instead of loading everything into memory.
 
@@ -154,7 +154,7 @@ Also implemented:
 
 ---
 
-## 7️⃣ Basic HTTP Server & Routing
+## 7️. Basic HTTP Server & Routing
 
 Created a basic HTTP server using Node.js built-in `http` module.
 
