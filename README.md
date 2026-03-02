@@ -176,14 +176,14 @@ Example Routes:
 ```
 Learning-nodejs/
 │
-├── basics/
-├── modules/
-├── fs-module/
-├── event-emitter/
-├── npm-packages/
-├── JSON-Demo/
-├── stream/
-├── server/
+├── basics/ -
+├── modules/ -
+├── fs-module/ -
+├── event-emitter/ -
+├── npm-packages/ -
+├── JSON-Demo/ -
+├── stream/ -
+├── server/ -
 ├── package.json
 └── README.md
 ```
