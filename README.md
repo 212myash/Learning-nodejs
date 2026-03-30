@@ -61,6 +61,10 @@ Learning-nodejs/
 ├── Promise/
 ├── server/
 ├── stream/
+|── zlib/
+|── middleware/
+|── sockets/
+├── express/
 ├── package.json
 └── README.md
 ```
@@ -210,6 +214,35 @@ Fast and minimal web framework for Node.js.
 
 ---
 
+## Socket
+
+### Definition
+Socket programming is used to enable real-time, bidirectional communication between client and server over a network.
+
+### Concepts
+- Network sockets basics
+- WebSocket server
+- Socket.io
+- Real time chat application
+
+---
+
+## Middleware
+
+### Definition
+Middleware functions are functions that execute during the request-response cycle in Express.js and have access to request, response, and next function.
+
+### Concepts
+- Custom Middleware
+- app.use()
+- app.all()
+- cookie-parser
+- express-session
+- cookie-session
+
+---
+
+
 # 🛠 How to Run
 
 ### 1️⃣ Clone Repository
@@ -221,12 +254,6 @@ git clone https://github.com/212myash/Learning-nodejs.git
 ```
 npm install
 ```
-
-### 3️⃣ Run Any File
-```
-node basics/filename.js
-```
-
 ---
 
 # 📈 What I Learned
@@ -238,7 +265,8 @@ node basics/filename.js
 - Event-driven programming
 - Async programming
 - HTTP services
-- Express basics
+- Express & Middleware
+- Real-time communication (Sockets)
 
 ---
 
